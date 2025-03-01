@@ -6,24 +6,54 @@
     font-style: normal;
 } 
 
+/* header-style */
+
 header {
 
     width: 1320px;
     margin: 50px auto;
 }
 
+/* header-style */
+
+/* sales-off-style */
+
 .off-container {
 
     text-align: center;
+
 }
 
 .off-title {
 
     color: #FF0000;
+    text-align: center;
     font-size: 88px;
 }
 
 .off-description {
 
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.off-categories {
+
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* sales-off-style */
+
+.mid-night-container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.img-on-top {
+
+    margin-left: -450px;
 }
