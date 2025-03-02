@@ -64,6 +64,8 @@ main {
 
 /* sales-off-style */
 
+/* mid-night-style */
+
 .mid-night-party {
     margin: 20px auto;
     display: flex;
@@ -101,6 +103,10 @@ main {
     margin: 50px 30px;
 }
 
+/* mid-night-style */
+
+/* place-styles */
+
 .place-details {
 
     margin-top: -50px;
@@ -119,6 +125,7 @@ main {
 
     font-size: 28px;
     font-weight: 600;
+    line-height: 20px;
 }
 
 .custom-color {
@@ -141,3 +148,72 @@ main {
     font-size: 20px;
     cursor: pointer;
 }
+
+/* place-styles */
+
+/* best-offer-style */
+
+.best-offer {
+
+    margin: 100px auto;
+}
+
+.best-offer-container {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-container {
+
+    max-width: 400px;
+}
+
+.best-offer-container img {
+
+    max-width: 250px;
+}
+
+.best-offer-img-container {
+
+    border: 15px solid red;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.best-offer-title {
+
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+}
+
+.best-offer-heading {
+
+    font-size: 48px;
+    line-height: 20px;
+}
+
+.best-offer-description {
+
+    font-size: 20px;
+    color: #757575;
+}
+
+.best-offer-sub-heading {
+
+    font-size: 48px;
+    color: red;
+    margin-bottom: -10px;
+}
+
+.best-offer-sub-description {
+
+    font-size: 20px;
+    color: #757575;
+    line-height: 20px;
+}
+
+/* best-offer-style */
