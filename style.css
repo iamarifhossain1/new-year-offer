@@ -253,3 +253,39 @@ main {
 
     width: 1320px;
 }
+
+/* best-offer-style */
+
+/* portfolio-style */
+
+.portfolio-container {
+
+    margin: 100px 0px;
+}
+
+.portfolio-title {
+
+    color: red;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.portfolio-heading {
+
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.portfolio-description {
+
+    font-size: 20px;
+    color: #757575;
+    margin-top: -15px;
+}
+
+.portfolio-card img {
+
+    max-width: 400px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
