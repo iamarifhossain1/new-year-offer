@@ -217,3 +217,39 @@ main {
 }
 
 /* best-offer-style */
+
+/* holiday-sales-style */
+
+.sales-container {
+
+    text-align: center;
+}
+
+.hoilday-title {
+
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.holiday-heading {
+
+    font-size: 60px;
+}
+
+.holiday-highlight {
+
+    color: red;
+}
+
+.holiday-description {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 32px;
+}
+
+.holiday-sales-img {
+
+    width: 1320px;
+}
