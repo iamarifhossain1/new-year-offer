@@ -355,6 +355,8 @@ input[type="email"] {
     font-size: 18px;
 }
 
+/* footer-style*/
+
 footer {
 
     background-color: #070211;
@@ -412,3 +414,5 @@ hr {
     justify-content: space-between;
     align-items: center;
 }
+
+/* footer-style*/
