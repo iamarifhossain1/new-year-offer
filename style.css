@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+
+    margin: 0px;
+    padding: 0px;
+}
+
 .primary-font {
     font-family: "Work Sans", sans-serif, poppins;
     font-optical-sizing: auto;
@@ -288,4 +294,121 @@ main {
     max-width: 400px;
     margin-right: 24px;
     margin-bottom: 24px;
+}
+
+/* portfolio-style */
+
+/* news-letter-section*/
+
+.news-letter-section {
+
+    background-color: #FFF2F2;
+    border-radius: 15px;
+    padding: 80px;
+}
+
+.news-letter-container {
+
+   margin: 50px auto;
+   text-align: center;
+}
+
+.news-letter-heading {
+
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.news-letter-description {
+
+    font-size: 20px;
+    color: #757575;
+}
+
+.news-letter-btn {
+
+    width: 648px;
+}
+
+input[type="email"] {
+
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.subscribe-btn {
+
+    padding: 13px;
+    border-radius: 10px;
+    width: 150px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FF0000;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+
+    font-size: 18px;
+}
+
+footer {
+
+    background-color: #070211;
+    margin-top: 150px;
+}
+
+.footer-container {
+    color: #fff;
+    padding: 120px 250px;
+    
+}
+
+.footer-info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+
+}
+
+.customer-line {
+
+    width: 100%;
+    height: 1px;
+    background-color: #757575;
+}
+
+.footer-logo-container {
+
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+hr {
+
+    margin: 30px 0px;
+    color: grey;
+
+}
+
+.logo-container img {
+
+   max-width: 50px;
+}
+
+.reserved, .unsub {
+
+    font-size: 17px;
+}
+
+.copyright {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
